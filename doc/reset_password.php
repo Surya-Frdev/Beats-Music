@@ -154,7 +154,7 @@
                                 <i class="fa-regular fa-circle-check"></i>
                                 <h2>Success</h2>
                                 <p>Your password is changed successfully.</p>
-                                <a href="../sign_in.php">Go back to the sign in page</a>
+                                <a href="../index.php">Go back to the sign in page</a>
                             </div>
                         </div>
                     <button type="submit" id="submit_btn">Change Password</button>
