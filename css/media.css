@@ -1,0 +1,231 @@
+@media screen and (min-width: 1400px) {
+  .beats-music {
+    width: 80em;
+    margin: 60px auto 0;
+  }
+  .beats-music .beats-container .beats-content {
+    width: 100%;
+  }
+  .beats-music .beats-container .beats-content h2 {
+    font-size: 32px;
+  }
+  .beats-music .beats-container .beats-content p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .text-content::before, .beats-music .beats-container .beats-content .text-content::after {
+    width: 24%;
+    top: 0.8em;
+    left: 7%;
+  }
+  .beats-music .beats-container .beats-content .text-content::after {
+    left: 44%;
+    top: -0.8em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container {
+    width: 22em;
+    margin: 0 auto;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details {
+    margin-bottom: 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details label {
+    padding-bottom: 5px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(1), .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber {
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber label span:nth-child(2) {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber a {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+    width: 25em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 p {
+    padding: 0 16px 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 button {
+    margin-bottom: 14px !important;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .beats-music {
+    width: 100%;
+    margin: 38px auto 0;
+  }
+  .beats-music .beats-container .beats-img {
+    border-radius: 0;
+  }
+  .beats-music .beats-container .beats-content {
+    width: 100%;
+    border-radius: 0;
+  }
+  .beats-music .beats-container .beats-content h2 {
+    font-size: 32px;
+  }
+  .beats-music .beats-container .beats-content p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .text-content::before, .beats-music .beats-container .beats-content .text-content::after {
+    width: 24%;
+    top: 0.8em;
+    left: 7%;
+  }
+  .beats-music .beats-container .beats-content .text-content::after {
+    left: 44%;
+    top: -0.8em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details {
+    margin-bottom: 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details label {
+    padding-bottom: 5px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(1), .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber {
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber label span:nth-child(2) {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber a {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+    width: 25em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 p {
+    padding: 0 16px 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 button {
+    margin-bottom: 14px !important;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #fff;
+  }
+  .beats-music {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .beats-music .beats-container .beats-img {
+    display: none;
+  }
+  .beats-music .beats-container .beats-content {
+    flex: 1;
+    width: 100%;
+  }
+  .beats-music .beats-container .beats-content h2 {
+    font-size: 34px;
+  }
+  .beats-music .beats-container .beats-content p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .text-content::before, .beats-music .beats-container .beats-content .text-content::after {
+    width: 24%;
+    top: 0.8em;
+    left: 7%;
+  }
+  .beats-music .beats-container .beats-content .text-content::after {
+    left: 44%;
+    top: -0.8em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container {
+    width: 22em;
+    margin: 0 auto;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details {
+    margin-bottom: 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details label {
+    padding-bottom: 5px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(1), .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber {
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber label span:nth-child(2) {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber a {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+    width: 80%;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 p {
+    padding: 0 16px 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 button {
+    margin-bottom: 14px !important;
+  }
+}
+@media screen and (max-width: 400px) {
+  .beats-music .beats-container .beats-content {
+    flex: 1;
+    width: 100%;
+  }
+  .beats-music .beats-container .beats-content h2 {
+    font-size: 30px;
+  }
+  .beats-music .beats-container .beats-content p {
+    font-size: 16px;
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .text-content::before, .beats-music .beats-container .beats-content .text-content::after {
+    width: 24%;
+    top: 0.8em;
+    left: 8%;
+  }
+  .beats-music .beats-container .beats-content .text-content::after {
+    left: 42%;
+    top: -0.8em;
+  }
+  .beats-music .beats-container .beats-content .inputs-container {
+    width: 90%;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details {
+    margin-bottom: 20px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details label {
+    padding-bottom: 5px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(1), .beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber {
+    padding-bottom: 30px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber label span:nth-child(2) {
+    font-size: 14px;
+  }
+  .beats-music .beats-container .beats-content .inputs-container .check-remeber a {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

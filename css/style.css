@@ -1,0 +1,351 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", serif;
+  transition: 0.6s;
+  background-color: #F5F5F5;
+  box-sizing: border-box;
+}
+
+body a {
+  font-family: "Poppins", serif;
+}
+
+.beats-music {
+  width: 90%;
+  margin: 8vh auto;
+  overflow: hidden;
+}
+.beats-music .beats-container {
+  display: flex;
+  height: 100%;
+}
+.beats-music .beats-container .beats-img {
+  flex: 0 0 50%;
+  border-radius: 12px 0 0 12px;
+  overflow: hidden;
+}
+.beats-music .beats-container .beats-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.beats-music .beats-container .beats-content {
+  flex: 0 0 50%;
+  width: 90%;
+  text-align: center;
+  border-radius: 0 12px 12px 0;
+  background-color: #fff;
+}
+.beats-music .beats-container .beats-content h2 {
+  font-size: 40px;
+  font-weight: 600;
+  padding: 40px 0 8px;
+}
+.beats-music .beats-container .beats-content p {
+  font-size: 18px;
+  font-weight: 400;
+  padding-bottom: 44px;
+}
+.beats-music .beats-container .beats-content p a {
+  color: #0074F0;
+}
+.beats-music .beats-container .beats-content .inputs-container {
+  width: 75%;
+  margin: 0 auto;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details {
+  display: flex;
+  flex-direction: column;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details label {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  color: rgba(1, 1, 1, 0.5);
+  padding-bottom: 10px;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details input {
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #010101;
+  color: #010101;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details input::placeholder {
+  font-weight: 500;
+  color: #010101;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details input:focus, .beats-music .beats-container .beats-content .inputs-container .input-details input:hover {
+  border-color: #EF3C56;
+  transition: 0.2s ease-in-out;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(1) {
+  margin-bottom: 40px;
+}
+.beats-music .beats-container .beats-content .inputs-container .input-details:nth-child(2) {
+  margin-bottom: 48px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+@keyframes wave-46 {
+  50% {
+    transform: scale(0.9);
+  }
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 input[type=checkbox] {
+  display: none;
+  visibility: hidden;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx {
+  margin: auto;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: pointer;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx span {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translate3d(0, 0, 0);
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx span:first-child {
+  position: relative;
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  transform: scale(1);
+  vertical-align: middle;
+  border: 1px solid #9098a9;
+  transition: all 0.2s ease;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx span:first-child svg {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 16px;
+  stroke-dashoffset: 16px;
+  transition: all 0.3s ease;
+  transition-delay: 0.1s;
+  transform: translate3d(0, 0, 0);
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx span:first-child:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #EF3C56;
+  display: block;
+  transform: scale(0);
+  opacity: 1;
+  border-radius: 50%;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx span:last-child {
+  padding-left: 8px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .cbx:hover span:first-child {
+  border-color: #EF3C56;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child {
+  background: #EF3C56;
+  border-color: #EF3C56;
+  animation: wave-46 0.4s ease;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child svg {
+  stroke-dashoffset: 0;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .checkbox-wrapper-46 .inp-cbx:checked + .cbx span:first-child:before {
+  transform: scale(3.5);
+  opacity: 0;
+  transition: all 0.6s ease;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber a {
+  font-size: 15px;
+  font-weight: 400;
+  color: #0074F0;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay:target, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2:target {
+  visibility: visible;
+  opacity: 1;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 {
+  margin: 80px auto;
+  padding: 20px 20px 50px;
+  background: #fff;
+  border-radius: 5px;
+  width: 360px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup h2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 h2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup h2, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 h2 {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 50px 0 15px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .close, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .close, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .close, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  transition: 0.3s ease-in-out;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .close:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .close:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .close:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .close:hover {
+  color: #EF3C56;
+  transform: rotate(90deg);
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup p, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 p {
+  font-size: 14px;
+  line-height: 24px;
+  text-align: left;
+  padding: 0 30px 30px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details {
+  padding: 0 30px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details label, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details label, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details label, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details label {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+  padding-bottom: 6px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details input, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details input, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details input, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details input {
+  font-size: 16px;
+  font-weight: 600;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  color: #010101;
+  background-color: transparent;
+  margin-bottom: 58px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details input:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details input:focus, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details input:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details input:focus, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details input:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details input:focus, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details input:hover, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details input:focus {
+  border-color: #EF3C56;
+  transition: 0.2sease-in-out;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details button, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details button {
+  width: 250px;
+  margin: 0 auto 32px;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup .input-details button a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 .input-details button a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup .input-details button a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 .input-details button a {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay .popup_2 a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup a, .beats-music .beats-container .beats-content .inputs-container .check-remeber .overlay_2 .popup_2 a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #EF3C56;
+}
+.beats-music .beats-container .beats-content .inputs-container button {
+  width: 300px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #EF3C56;
+  color: #fff;
+  border: 0;
+  padding: 15px 0;
+  border-radius: 6px;
+  margin-bottom: 34px;
+  cursor: pointer;
+}
+.beats-music .beats-container .beats-content .inputs-container .error-message {
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #EF3C56;
+  text-align: left;
+  margin-top: 5px;
+}
+.beats-music .beats-container .beats-content .inputs-container .error-message img {
+  margin-right: 4px;
+}
+.beats-music .beats-container .beats-content .reset-pass .entry-data {
+  margin-top: 75px;
+}
+.beats-music .beats-container .beats-content .reset-pass h2 {
+  padding-top: 14px;
+}
+.beats-music .beats-container .beats-content .reset-pass .fa-circle-check {
+  font-size: 30px;
+  color: #03B37D;
+}
+.beats-music .beats-container .beats-content .text-content {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(1, 1, 1, 0.6);
+  padding: 0;
+  margin-bottom: 22px;
+}
+.beats-music .beats-container .beats-content .text-content::before, .beats-music .beats-container .beats-content .text-content::after {
+  content: "";
+  display: block;
+  width: 20%;
+  border-bottom: 0.5px solid rgba(1, 1, 1, 0.35);
+  position: relative;
+  top: 0.8em;
+  left: 16%;
+  transform: translate(50%, 50%);
+}
+.beats-music .beats-container .beats-content .text-content::after {
+  left: 43.5%;
+  top: -0.8em;
+}
+.beats-music .beats-container .beats-content h6 {
+  font-size: 15px;
+  font-weight: 400;
+  color: #010101;
+  padding-bottom: 15px;
+}
+.beats-music .beats-container .beats-content .social-links {
+  width: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto 40px;
+}
+.beats-music .beats-container .beats-content .social-links a {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid rgba(1, 1, 1, 0.5);
+  align-content: center;
+}
+.beats-music .beats-container .beats-content .social-links a img {
+  width: 13px;
+  height: 13px;
+}
+
+/*# sourceMappingURL=style.css.map */
