@@ -84,7 +84,7 @@
                                     <span class="error-message" id="forgot-email"></span>
                                     <a href="#popup_2"><button type="submit" name="forgot_submit" value="submit">Continue</button></a>
                                 </div>
-                                <a href="sign_in.php">Go back to the sign in page</a>
+                                <a href="index.php">Go back to the sign in page</a>
                             </div>
                         </div>
                         <div id="popup_2" class="overlay_2">
