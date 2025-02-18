@@ -29,6 +29,7 @@ body a {
 }
 .beats-music .beats-container .beats-img {
   flex: 0 0 50%;
+  height: 100vh;
   border-radius: 12px 0 0 12px;
   overflow: hidden;
 }
