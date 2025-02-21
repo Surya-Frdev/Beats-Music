@@ -61,7 +61,7 @@
             </div>
             <div class="beats-content">
                 <h2>Create an account</h2>
-                <p>Already have an account ? <a href="../sign_in.php">Sign in</a></p>
+                <p>Already have an account ? <a href="../index.php">Sign in</a></p>
                 <div class="inputs-container">
                     <div class="entry-data">
                         <div class="input-details">
